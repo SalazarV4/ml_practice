@@ -1,0 +1,24 @@
+[project]
+name = "practice"
+version = "0.1.0"
+description = "ML Practice"
+authors = [
+    {name = "Your Name",email = "you@example.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "scikit-learn (>=1.8.0,<2.0.0)",
+    "pandas (==2.3)",
+    "mlflow (>=3.10.1,<4.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "ipykernel (>=7.2.0,<8.0.0)"
+]
