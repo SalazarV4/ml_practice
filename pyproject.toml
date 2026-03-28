@@ -12,6 +12,10 @@ dependencies = [
     "pandas (==2.3)",
     "mlflow (>=3.10.1,<4.0.0)",
     "great-expectations (>=1.15.1,<2.0.0)",
+    "dagshub (>=0.6.9,<0.7.0)",
+    "gql (==4.0.0)",
+    "ipywidgets (>=8.1.8,<9.0.0)",
+    "dvc (>=3.67.0,<4.0.0)",
 ]
 
 
