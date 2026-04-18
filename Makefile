@@ -1,8 +1,8 @@
 install:
-	poetry install --no-root  --with=ci
+	poetry install --only=ci --no-root 
 
 install-dev:
-	poetry install --with=dev --no-root
+	poetry install --only=dev --no-root
 
 load:
 	poetry run python src/main.py --path /workspaces/ml_practice/data/raw/credit_score.csv
