@@ -1,5 +1,5 @@
 install:
-	poetry install --with=ci --no-root 
+	poetry install --no-root  --with=ci
 
 install-dev:
 	poetry install --with=dev --no-root
