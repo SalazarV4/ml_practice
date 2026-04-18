@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "5f1926c0-2242-4643-92bb-3fa7f32da743",
+      "name": "extraction_stage"
+    },
+    "batch_definition": {
+      "id": "e6008f73-a20a-4a33-8b95-c8c4b77289bc",
+      "name": "credit_score_df"
+    },
+    "datasource": {
+      "id": "ebf3c49a-1d74-4ed3-ab1a-b833d6c10af9",
+      "name": "credit_score_runtime"
+    }
+  },
+  "id": "6f346491-1d12-4207-8cd6-769fb1e38ea9",
+  "name": "credit_score_definition",
+  "suite": {
+    "id": "5f07f22b-ffb1-4d6b-9d1b-1e8f7572b42f",
+    "name": "credit_score_suite"
+  }
+}
